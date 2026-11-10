@@ -1,0 +1,19 @@
+1.) I could write a code that expresses God's mercy. I can include the Sacraments such as Confession
+and baptism, and include a sin-count.
+The soul that receives absolution may see in the terminal Luke 15:19-20, that is, the parable Jesus 
+told of the story of the prodigal son when he is received by his father after losing his inheritance.
+
+Loops.
+I would like to include a for() or while() loop so that the person can keep being prompted to go 
+to confession. Perhaps the program will not terminate and I could use the phrase: while (true).
+I could also make a for() loop that counts the amount of times a person has gone to confession. 
+
+I could make a loop asking the user whether the person is trying to repent of sin as long as 
+their answer is "no", and the person is in a state of mortal sin. This may make the program one-sided,
+however.
+
+Arrays.
+I would also like to add an array for a list of the number of venial and mortal sins for the first 
+confession and subsequent ones up until, perhaps, the 10th one.
+
+2.) I could also write a program that 

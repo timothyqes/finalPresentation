@@ -1,0 +1,72 @@
+/*	The Final Presentation Canvas Prompt:
+	
+	Primary instructions:
+	
+	1.) Write a program that does something that you find interesting and or useful.
+
+		The program must be at or a little under 250 lines, according to what my professor said -
+		(Canvas).
+		My professor is looking for code that is concise and substantial for programs that are -
+		slightly under 250 lines (Canvas). I may not add unecessary lines of code in order to -
+		increase the line-count.
+		
+		I may use a different programming language besides C++ if I would like to.
+	
+	2.) Submission options:
+		
+		Option 1: Come to class in-person and give a verbal walkthrough of the program's execution -
+		and some lines of code (Canvas). It is recommended that I use my laptop or use the -
+		professor's laptop for this step (Canvas).
+				
+		Option 2: Make a recording of myself demonstrating my program's execution (Canvas).
+		If I choose this option, I may upload the video file directly to my GitHub repository, or -
+		include a Google Drive link or other external link (such as YouTube and OneDrive) in my -
+		README.md so that the video may be viewed by anyone with the link (Canvas).
+
+		No matter which of the two options I choose, the presentation must be at least 5 minutes -
+		long.
+		There is no maximum time limit, but 30 minutes of dicussion is generally the limit (Canvas).
+
+		This presentation may be submitted during class on any day at the beginning for the -
+		remainder of the semester (Canvas).
+
+	3.) Upload my program as a public repository on GitHub (Canvas):
+		
+		The GitHub repository upload must be submitted on Canvas as a URL link (Canvas)
+		
+		The coding in the repository must have all source code files, such as .cpp, .h, etc (Canvas)
+
+		There must also be a short README.md file describing my project (Canvas).
+
+	4.)	Add feedback to at least one of my peers' projects by one of two options on GitHub (Canvas):
+ 
+		An issue: it must be reasonable and specific with the issue(s) I describe (Canvas).
+		
+		A pull request: I must modify some portion of my classmate's code (Canvas).
+ 
+		May use this link for my professor's guide on how to do both:
+		https://www.youtube.com/watch?v=7C_K19PBMg4&t=1s (Canvas).
+	
+	Grading breakdown:
+
+	Code: 25%
+	Presentation: 50%
+	Peer feedback participation: 25%
+
+	Finally, if you would like to see some previous student submissions of this assignment, you can use the following links:
+
+
+CHECKAHS! https://github.com/spectralreaper9-ux/COSC-1-Final-Program
+
+Simple DnD https://github.com/Thomezr/Final-presentation---DnD
+
+Ticky Tacky Toe (TTT) 
+https://github.com/Grizky21/COSC-1436-001/tree/main/2D%20Arrays%20-%20Tic%20Tac%20Toe
+
+Magic the Gathering https://github.com/AEGGF/Final-Project
+
+PONG https://github.com/DualScreenzz/Terminal-PONG-2026
+
+Budgeting - for those who are financially responsible 
+https://github.com/DarkRaider5789-lab/Budget_Manager_IC
+*/
