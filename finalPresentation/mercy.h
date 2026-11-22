@@ -26,7 +26,7 @@ namespace sacraments /*This entire program is about a person finding the opportu
 	variable tied the the Sacrament of Baptism will be switched to true (1), and the person will be
 	prompted for the Sacrament of Holy Communion.
 	*/
-	void sacramentOfBaptism(std::string nameOfPerson, listOfSins forgivenVenialSinsList, listOfSins forgivenMortalSinsList, int unforgivenVenialSins, int unforgivenMortalsins, int absolution);
+	void sacramentOfBaptism(bool checkBaptism, std::string promptBaptism, int userInput, std::string nameOfPerson, sacraments::listOfSins forgivenVenialSinsList, sacraments::listOfSins forgivenMortalSinsList, int unforgivenVenialSins, int unforgivenMortalSins, int absolution_i);
 
 	/*
 	Confession:
@@ -59,7 +59,7 @@ namespace sacraments /*This entire program is about a person finding the opportu
 	the sacrament of Baptism and Confession. This means that I should make at least ten arrays, each
 	named for the respective set of forgiven sins.
 	*/
-	void sacramentOfConfession(std::string nameOfPerson, bool baptismB, std::string baptismS, listOfSins forgivenVenialSinsList, listOfSins forgivenMortalSinsList);
+	void sacramentOfConfession(bool checkBaptism, std::string nameOfPerson, std::string promptBaptism, std::string promptRepentance, bool checkRepentance, sacraments::listOfSins forgivenVenialSinsList, int unforgivenVenialSins, sacraments::listOfSins forgivenMortalSinsList, int unforgivenMortalSins, int absolution_i);
 
 	/*
 	Communion:
@@ -68,7 +68,7 @@ namespace sacraments /*This entire program is about a person finding the opportu
 	This function presupposes that the person has fasted from food and drink (excluding water) for one
 	hour or more before receiving communion. This function also checks whether the person has been
 	baptized, which is required for receiving the sacrament. If the person is not, then they will be
-	prompted for it in the function, baptism_and_confession([...]).
+	prompted for it in the function named sacramentOfBaptism.
 
 	If the person is in a state of grace:
 	If the user's input is "yes", the terminal tells them that the person has received the Eucharist
@@ -84,5 +84,5 @@ namespace sacraments /*This entire program is about a person finding the opportu
 	Saying "no" while in a state of mortal sin tells the user in the terminal that they are encouraged to
 	go to confession, and that they may receive a blessing.
 	*/
-	void receivingCommunion(std::string nameOfPerson, listOfSins forgivenVenialSinsLIst, listOfSins forgivenMortalSinsList, listOfSins unforgivenVenialSinsList, listOfSins unforgivenMortalSinsList);
+	void sacramentOfCommunion(bool checkBaptism, bool checkDesireToReceive, std::string desireToReceive, bool checkDesireForABLessing, std::string desireForABlessing, std::string nameOfPerson, sacraments::listOfSins forgivenVenialSinsList, int unforgivenVenialSins, int absolution_i);
 }

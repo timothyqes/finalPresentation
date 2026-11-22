@@ -15,5 +15,3 @@ however.
 Arrays.
 I would also like to add an array for a list of the number of venial and mortal sins for the first 
 confession and subsequent ones up until, perhaps, the 10th one.
-
-2.) I could also write a program that 

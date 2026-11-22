@@ -24,7 +24,7 @@ int main()
 		0
 	};
 
-	std::vector<int> forgivenMortalSinsList = 
+	std::vector<int> forgivenMortalSinsList =
 	{
 		0,
 		0,
@@ -40,11 +40,10 @@ int main()
 
 	//Total forgiven and unforgiven sins:
 	int totalUnforgivenSins = unforgivenVenialSins + unforgivenMortalSins;
-	int totalSinsForgiven =  forgivenVenialSinsList.size() + forgivenMortalSinsList.size();
+	int totalSinsForgiven = forgivenVenialSinsList.size() + forgivenMortalSinsList.size();
 
 	//The total amount of times the person has been absolved:
-	int absolution = 0; //The program ends when reaching 10.
-
+	int absolution_i = 0; //The program ends when reaching 10.
 	//Setting a variable for the person in question:
 	std::string nameOfPerson;
 
@@ -52,33 +51,39 @@ int main()
 	bool stateOfGrace = false;
 	if (unforgivenMortalSins > 0)
 	{
-		bool stateOfGrace = false;
+		stateOfGrace = false;
 	}
+
 	else
 	{
-		bool stateOfGrace = true;
+		stateOfGrace = true;
 	}
-	
-	//Covered in mercy.cpp under the sacramentOfBaptism() function.
-	//if (baptismS = "yes");
-	//{
-	//	bool baptism = true;
-	//}
 
 	//Prompting and storing the name of the person:
 	std::cout << "Enter the name of a person: " << std::endl;
 	std::getline(std::cin, nameOfPerson);
 
-	void sacramentOfBaptism(std::string nameOfPerson, sacraments::listOfSins forgivenVenialSinsList, sacraments::listOfSins forgivenMortalSinsList, int unforgivenVenialSins, int unforgivenMortalsins, int absolution);
-
-	while (absolution < 10)
+	//Most of the code lies on this line:
+	sacraments::sacramentOfBaptism(bool checkBaptism, std::string promptBaptism, int userInput, std::string nameOfPerson, sacraments::listOfSins forgivenVenialSinsList, sacraments::listOfSins forgivenMortalSinsList, int unforgivenVenialSins, int unforgivenMortalSins, int absolution_i);
+	
+	if (absolution_i++)
 	{
-		/* Will insert the remaining functions. Planning to print the total forgiven mortal and venial 
-		sins individually and their sum, */
+		for (int mortalSinsIndex = 0; forgivenMortalSinsList.size(); mortalSinsIndex++)
+		{
+			//This function calls its helper functions.
+			{
+				/* Will insert the remaining functions. Planning to print the total forgiven mortal and venial
+				sins individually and their sum, */
+				if (std::cin >> forgivenMortalSinsList)
+				{
+					forgivenMortalSinsList[mortalSinsIndex];
+				}
+			}
+		}
 	}
-	//Final lines of code to be executed:
+	//The final std::cout lines of code to be seen:
 	std::cout << "Total forgiven venial sins: " << forgivenVenialSinsList.size() << std::endl;
 	std::cout << "Total forgiven mortal sins: " << forgivenMortalSinsList.size() << std::endl;
-	std::cout << nameOfPerson << "has been forgiven of " << totalSinsForgiven << " sins total " << 
-		std::endl;
+	std::cout << nameOfPerson << "has been forgiven of " << totalSinsForgiven << " sins total " <<
+	std::endl;
 }
